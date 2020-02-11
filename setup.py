@@ -12,9 +12,8 @@ setup(
     description='An AWS Aurora Serverless Data API dialect for SQLAlchemy',
     long_description=open('README.rst').read(),
     install_requires=[
-        'sqlalchemy',
-        'aurora-data-api >= 0.2.0'
-    ],
+        'sqlalchemy'],
+    dependency_links=['https://github.com/ALydh/aurora-data-api/tarball/master#egg=package-1.0']
     extras_require={
     },
     packages=find_packages(exclude=['test']),
