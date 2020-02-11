@@ -13,7 +13,7 @@ setup(
     long_description=open('README.rst').read(),
     install_requires=[
         'sqlalchemy'],
-    dependency_links=['https://github.com/ALydh/aurora-data-api/tarball/master#egg=package-1.0']
+    dependency_links=['https://github.com/ALydh/aurora-data-api/tarball/master#egg=package-1.0'],
     extras_require={
     },
     packages=find_packages(exclude=['test']),
